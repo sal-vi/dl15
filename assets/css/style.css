@@ -1,0 +1,99 @@
+/* Global CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* HEADER */
+  .texts-container {
+    text-align: start;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 32px;
+  }
+  
+  /* INPUT/BUTTON */
+  .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-input-class {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .add-btn-class {
+    padding: 10px 20px;
+    background-color: #ff0066;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-btn-class:hover {
+    background-color: #0056b3;
+  }
+  
+  /* LIST/RESULT*/
+  .list-container {
+    flex-grow: 1;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+.list-container p {
+    display: inline-block;
+    margin-right: 15px;
+}  
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  .result-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+  }
+  
+  .total-container {
+    text-align: left;
+  }
+  
+  /* RESULT/TOTAL */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+  

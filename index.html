@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <!--Style CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/8baa1afa5b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="texts-container">
+        <h1>To-Do List</h1>
+      </div>
+      <div class="input-container">
+        <input
+          type="text"
+          class="add-input-class"
+          placeholder="Ingresa una nueva tarea aquí: "
+          id="input-id"
+        />
+        <button class="add-btn-class" id="add-btn-id">Agregar</button>
+      </div>
+      <div class="result-container">
+        <div class="total-container">
+          <p>Total: <span id="span-total">0</span></p>
+          <p>Realizadas: <span id="span-finished">0</span></p>
+        </div>
+        <div class="list-container">
+          <p>ID</p>
+          <p>Task</p>
+          <ul id="list-id"></ul>
+        </div>
+      </div>
+    </div>
+    <!--JS SCRIPT-->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
